@@ -167,8 +167,7 @@
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ],
     "plugins": {
       "com-darryncampbell-cordova-plugin-intent": {},

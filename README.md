@@ -1,22 +1,31 @@
-Moodle Mobile
+Mindful Communities
 =================
 
-This is the primary repository of source code for the official Moodle Mobile app.
-
-* [User documentation](http://docs.moodle.org/en/Moodle_Mobile)
-* [Developer documentation](http://docs.moodle.org/dev/Moodle_Mobile)
-* [Development environment setup](http://docs.moodle.org/dev/Setting_up_your_development_environment_for_Moodle_Mobile_2)
-* [Bug Tracker](https://tracker.moodle.org/browse/MOBILE)
-* [Release Notes](http://docs.moodle.org/dev/Moodle_Mobile_Release_Notes)
+This is the primary repository of source code for the Mindful Communities App
 
 License
 -------
+Moodle is used under the Apache License 2.0.
 
-[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+This app is (c)2020 Parapluie Creative, and is provided under Exclusive License to the Mindful Communities Group
 
-Big Thanks
+Building for iOS (for the first time)
 -----------
+1) Open terminal and navigate to the location where you cloned this repo.
+2) Run npm setup run
+3) Run npx ionic platform add prod:ios
+4) Run npx cordova plugin rm phonegap-plugin-push
+5) Set the folder permissions for the place where you stored the Git repository to allow all users to read and write recursively.
+6) Open Xcode, set the signing settings to sign using the certificate for the team "Michael Hines"
+7) Set the corresponding version and increment the build number, even if the last build failed.
+8) Open terminal, navigate to the repo, and run sudo npx cordova run prod:ios
+9) After the build has completed, open XCode, and go to Product>Archive
+10) Submit the update package to Apple via Transporter.
+11) Write the corresponding patchnotes for the platform, do not note specific bugs fixed, unless the bug is noticed by a User. Security fixes should be pushed IMMEDIATELY. Non security, quality of life fixes should be released to the App Store on Thursdays at 1AM PST.
+12) Note the push in Jira. If apple submits a rejection along with feedback, note the feedback provided by Apple as Jira issues, squash the bug, and resubmit. Increment the version number for every package to be released to the app store with major functionality changes.
 
-Cross-browser Testing Platform and Open Source <3 Provided by [Sauce Labs](https://saucelabs.com)
+**Current iOS Version: 3.9.5**
+**Current iOS Build Version: 3.9.5.1**
 
-![Sauce Labs Logo](https://user-images.githubusercontent.com/557037/43443976-d88d5a78-94a2-11e8-8915-9f06521423dd.png)
+**Next iOS Version: 3.9.51**
+**Next iOS Build Version: 3.9.51.0**

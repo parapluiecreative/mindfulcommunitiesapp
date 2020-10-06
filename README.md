@@ -24,10 +24,11 @@ Building for iOS (for the first time)
 11) Write the corresponding patchnotes for the platform, do not note specific bugs fixed, unless the bug is noticed by a User. Security fixes should be pushed IMMEDIATELY. Non security, quality of life fixes should be released to the App Store on Thursdays at 1AM PST.
 12) Note the push in Jira. If apple submits a rejection along with feedback, note the feedback provided by Apple as Jira issues, squash the bug, and resubmit. Increment the version number for every package to be released to the app store with major functionality changes.
 
+------------
 **Current iOS Version: 3.9.5**
 
 **Current iOS Build Version: 3.9.5.1**
-
+------------
 
 **Next iOS Version: 3.9.51**
 

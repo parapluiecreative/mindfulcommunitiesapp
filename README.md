@@ -30,6 +30,6 @@ Building for iOS (for the first time)
 **Current iOS Build Version: 3.9.5.1**
 ------------
 
-**Next iOS Version: 3.9.51**
+**Next iOS Version: Lucy**
 
 **Next iOS Build Version: 3.9.51.0**

@@ -25,7 +25,10 @@ Building for iOS (for the first time)
 12) Note the push in Jira. If apple submits a rejection along with feedback, note the feedback provided by Apple as Jira issues, squash the bug, and resubmit. Increment the version number for every package to be released to the app store with major functionality changes.
 
 **Current iOS Version: 3.9.5**
+
 **Current iOS Build Version: 3.9.5.1**
 
+
 **Next iOS Version: 3.9.51**
+
 **Next iOS Build Version: 3.9.51.0**
